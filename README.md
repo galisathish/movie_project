@@ -46,12 +46,12 @@ Ensure you have the following installed:
 
 4. **Run the FastAPI backend:**
    ```sh
-   uvicorn api:app --reload
+   uvicorn server:app --reload
    ```
 
 5. **Run the Streamlit UI:**
    ```sh
-   streamlit run app.py
+   streamlit run ui.py
    ```
 
 ## API Documentation
